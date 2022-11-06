@@ -4,7 +4,7 @@ This application was created for Women Who Code Austin, TX Fiercely Frontend mee
 
 It is deployed on StackBlitz.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/github-wtcajt?file=src%2Ffeatures%2Fblogposts%2FBlogPostsComponent.tsx&title=use-selector-blogposts)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/github-wtcajt?file=src%2FBlogPostsComponent.js&title=use-selector-blogposts)
 
 
 It is also deployed on Vercel here: <a href="https://use-selector-blogposts.vercel.app/">https://use-selector-blogposts.vercel.app/</a>.
