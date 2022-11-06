@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# use-selector-blogposts
 
 This application was created for Women Who Code Austin, TX Fiercely Frontend meetup to experiment with React.js `useSelector` and re-rendering of child components. Specifically, it shows how to prevent other items (child components) in a list (parent component) from re-rendering when only one list item changes state.
 
