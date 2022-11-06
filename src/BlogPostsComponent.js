@@ -58,7 +58,7 @@ function BlogPostsComponent() {
 
   return (
       <div className="App">
-		  <div style={{ marginBottom: '30px' }}>This application was created for Women Who Code Austin, TX frontend meetup to demonstrate React.js with Redux-Toolkit. Here is the Github repository: <a href="https://github.com/elze/use-selector-blogposts">https://github.com/elze/use-selector-blogposts</a>. <br/>	
+		  <div style={{ marginBottom: '30px' }}>This application was created for Women Who Code Austin, TX frontend meetup to demonstrate child component re-rerenderings in React.js with <code>useSelector</code>. Here is the Github repository: <a href="https://github.com/elze/use-selector-blogposts">https://github.com/elze/use-selector-blogposts</a>. <br/>	
 		  Here is the <a href="http://geekitude.com">author's website</a>.</div>  	  
 		  
 		<h2>Blog Posts</h2>

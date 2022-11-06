@@ -1,6 +1,13 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application was created for Women Who Code Austin, TX Fiercely Frontend meetup to experiment with React.js `useSelector` and re-rendering of child components. Specifically, it shows how to prevent other items (child components) in a list (parent component) from re-rendering when only one list item changes state.
+
+It is deployed on StackBlitz.
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/github-wtcajt?file=src%2Ffeatures%2Fblogposts%2FBlogPostsComponent.tsx&title=use-selector-blogposts)
+
+
+It is also deployed on Vercel here: <a href="https://use-selector-blogposts.vercel.app/">https://use-selector-blogposts.vercel.app/</a>.
 
 ## Available Scripts
 
