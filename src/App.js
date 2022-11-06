@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import BlogPostsComponent from './BlogPostsComponent'
+
+var React = require('react');
 
 function App() {
   return (
