@@ -31,7 +31,7 @@ function BlogPostComponent({ num }) {
 		}, shallowEqual 
 	);
 
-	const handleChange = (blogPost, event: any) => {
+	const handleChange = (blogPost, event) => {
 		const found = blogPostStatusOptions.find((elem) => {
 			return elem.value === event.target.value
 		});
