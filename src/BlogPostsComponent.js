@@ -10,8 +10,8 @@ import styles from './BlogPosts.module.css';
 function BlogPostsComponent() {
 	//const count = useRenderTimes();
 	const dispatch = useDispatch();
-	// const blogposts = useSelector((state) => state.entities);
-	const blogpostIds = useSelector((state) => state.ids, shallowEqual );
+	const blogposts = useSelector((state) => state.entities);
+	// const blogpostIds = useSelector((state) => state.ids, shallowEqual );
 	
 	useEffect(() => {   
 		console.log(`App: useEffect: about to dispatch getBlogPosts`);
@@ -69,8 +69,10 @@ function BlogPostsComponent() {
 			<div className={`${styles.surroundingText} ${styles.cellContainer}`}><b>Move to</b></div>			
 		</div>		  		  
       {
-	blogpostIds?
-		blogpostIds?.map((id, ind) => { 
+		  blogposts ?
+	// blogpostIds?
+		blogposts?.map((blogpost, ind) => { 
+			const id = blogpost.id;
 			  console.log(`blogposts?.map: id = ${id} ind = ${ind}}`);
             return (
 			      <BlogPostComponent key={id} num={ind}/>
